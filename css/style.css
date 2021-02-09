@@ -10,3 +10,41 @@ body {
 .container {
     max-width: 1170px;
 }
+
+.price {
+    font-family: Inter;
+    
+}
+
+.price-title, .price-subtitle {
+   display: flex;
+   justify-content: center;
+}
+
+
+.price-title {
+    font-size: 64px;
+    font-weight: 900;
+    margin: 74px 0 34px 0;
+}
+
+.price-subtitle {
+    font-size: 32px;
+    color: #ADADAD;
+    font-weight: bold;
+}
+
+.price-subtitle-purple {
+    color: #6C5CE7;
+}
+
+.price-tariff {
+
+}
+
+.price-tariff-block {
+   width: 370px; 
+   height: 536px;
+   border-radius: 8px;
+}
+
