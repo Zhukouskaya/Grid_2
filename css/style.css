@@ -36,11 +36,19 @@ body {
     z-index: -1;
 }
 
-
-
 .subtitle {
     font-weight: 900;
     font-size: 48px;
     line-height: 77px;
     text-align: center;
+}
+.designs{
+    width: 1440px;
+    height: 666px;
+    border: 1px solid red;
+}
+. block{
+    width: 270px;
+    height: 330px;
+    border: 1px solid blue;
 }
