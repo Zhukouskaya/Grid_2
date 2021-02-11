@@ -1,93 +1,183 @@
 * {
-    box-sizing: border-box
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
-    max-width: 1170px;
-    margin: 0 auto;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 .title {
-    font-weight: 800;
-    font-size: 50px;
-    line-height: 104px;
-    text-align: center;
+  color: #2d3436;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 0px;
+  text-align: center;
 }
 .title span {
-    color: #D63031;
-    text-shadow:white ;
-    position: relative;
-    z-index: 10;
+  color: #d63031;
+  text-shadow: 0 4px 0 white;
+  position: relative;
+  z-index: 10;
 }
 .title span::after {
-    content: "";
-    background: #55EFC4;
-    border-radius: 40px;
-    width: 100%;
-    height: 51px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
+  content: "";
+  background: #55efc4;
+  border-radius: 40px;
+  width: 100%;
+  height: 51px;
+  position: absolute;
+  bottom: 0;
+  left: -10px;
+  z-index: -1;
 }
 
 .subtitle {
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 77px;
-    text-align: center;
+  color: #2d3436;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 10px;
+  text-align: center;
 }
 
+.image_block {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-container {
+  width: 100%;
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: repeat(2, 270px) repeat(3, 170px);
+  grid-template-rows: 0.4fr repeat(3, 1fr);
+  gap: 30px 30px;
+  grid-template-areas:
+    "text1_grid image1_grid image1_grid text2_grid text2_grid"
+    "image4_grid image1_grid image1_grid image2_grid image3_grid"
+    "image4_grid image5_grid image6_grid image6_grid image7_grid"
+    "button_grid image5_grid image6_grid image6_grid .";
+}
+
+.text1_grid {
+  grid-area: text1_grid;
+  font-size: 18px;
+  line-height: 32px;
+  color: #2d3436;
+}
+.text1_grid p {
+  margin-top: 0;
+}
+
+.image1_grid {
+  grid-area: image1_grid;
+}
+
+.text2_grid {
+  grid-area: text2_grid;
+  font-size: 18px;
+  line-height: 32px;
+  color: #2d3436;
+  align-self: flex-end;
+  margin-bottom: 0;
+}
+.text2_grid p {
+  margin-bottom: 0;
+}
+
+.image2_grid {
+  grid-area: image2_grid;
+  align-self: flex-end;
+}
+
+.image3_grid {
+  grid-area: image3_grid;
+  align-self: flex-end;
+}
+
+.image4_grid {
+  grid-area: image4_grid;
+}
+
+.button_grid {
+  grid-area: button_grid;
+}
+.button_grid a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 82px;
+  padding: 16px 16px;
+  border-radius: 45px;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  line-height: 48px;
+  color: white;
+  background: #6c5ce7;
+}
+
+.image5_grid {
+  grid-area: image5_grid;
+}
+
+.image6_grid {
+  grid-area: image6_grid;
+}
+
+.image7_grid {
+  grid-area: image7_grid;
+}
 
 .price {
-    font-family: Inter;
-    
+  font-family: Inter;
 }
 
-.price-title, .price-subtitle {
-   display: flex;
-   justify-content: center;
+.price-title,
+.price-subtitle {
+  display: flex;
+  justify-content: center;
 }
-
 
 .price-title {
-    font-size: 64px;
-    font-weight: 900;
-    margin: 74px 0 34px 0;
+  font-size: 64px;
+  font-weight: 900;
+  margin: 74px 0 34px 0;
 }
 
 .price-subtitle {
-    font-size: 32px;
-    color: #ADADAD;
-    font-weight: bold;
+  font-size: 32px;
+  color: #adadad;
+  font-weight: bold;
 }
 
 .price-subtitle-purple {
-    color: #6C5CE7;
+  color: #6c5ce7;
 }
 
 .price-tariff {
-
 }
 
 .price-tariff-block {
-   width: 370px; 
-   height: 536px;
-   border-radius: 8px;
+  width: 370px;
+  height: 536px;
+  border-radius: 8px;
 }
 
-.designs{
-    width: 1440px;
-    height: 666px;
-    border: 1px solid red;
+.designs {
+  width: 1440px;
+  height: 666px;
+  border: 1px solid red;
 }
-. block{
-    width: 270px;
-    height: 330px;
-    border: 1px solid blue;
+.block {
+  width: 270px;
+  height: 330px;
+  border: 1px solid blue;
 }
