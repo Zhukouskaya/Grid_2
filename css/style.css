@@ -9,8 +9,79 @@ body {
 
 .container {
     max-width: 1170px;
+    margin: 0 auto;
 }
-.desings{
+
+.title {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 104px;
+    text-align: center;
+}
+.title span {
+    color: #D63031;
+    text-shadow:white ;
+    position: relative;
+    z-index: 10;
+}
+.title span::after {
+    content: "";
+    background: #55EFC4;
+    border-radius: 40px;
+    width: 100%;
+    height: 51px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.subtitle {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 77px;
+    text-align: center;
+}
+
+
+.price {
+    font-family: Inter;
+    
+}
+
+.price-title, .price-subtitle {
+   display: flex;
+   justify-content: center;
+}
+
+
+.price-title {
+    font-size: 64px;
+    font-weight: 900;
+    margin: 74px 0 34px 0;
+}
+
+.price-subtitle {
+    font-size: 32px;
+    color: #ADADAD;
+    font-weight: bold;
+}
+
+.price-subtitle-purple {
+    color: #6C5CE7;
+}
+
+.price-tariff {
+
+}
+
+.price-tariff-block {
+   width: 370px; 
+   height: 536px;
+   border-radius: 8px;
+}
+
+.designs{
     width: 1440px;
     height: 666px;
     border: 1px solid red;
@@ -35,6 +106,5 @@ body {
     display: inline-block;
     position:relative;
     
-    
-    
+       
 }
