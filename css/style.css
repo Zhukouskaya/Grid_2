@@ -317,6 +317,7 @@ body {
   }
 }
 
+
 @media (max-width: 360px) {
 .grid-container {
   grid-template-columns: 130px 130px 84px 84px 84px;
@@ -369,4 +370,31 @@ body {
     display: flex;
     align-items: center;
   }
+
+.designs{
+    width: 1440px;
+    height: 666px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+.desings h1{
+   width: 1170px;
+   height: 49px;
+   border: 1px solid blue;
+   margin: 80px 135px 0 135px;
+}
+.work{
+    width: 1170px;
+    height: 72px;
+    border: 1px solid blue;
+    margin: 15px 135px 0 135px;
+}
+.block{
+    width: 270px;
+    height: 330px;
+    border: 1px solid blue;
+    display: inline-block;
+    position:relative;
+    
+
 }
