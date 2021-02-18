@@ -264,124 +264,89 @@ body {
 
 /* Natalia code */
 
-.summary {
-  width: 1440px;
+.summary{
   margin: 0 auto;
 }
-.story {
-  width: 1170px;
-  height: 49px;
-  margin: 80px 135px 0 135px;
+.story{
+  margin: 80px 0 0;
   display: block;
-  position: relative;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
   line-height: 48px;
 }
-.skills {
-  width: 1170px;
-  height: 72px;
-  margin: 15px 135px 0 135px;
+.skills{
+  margin: 15px 0 0;
   display: block;
-  position: relative;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 36px;
 }
-.result {
-  width: 1170px;
+.result{
   display: flex;
-  position: relative;
   justify-content: space-between;
-  margin: 40px 135px 80px 135px;
+  margin: 40px 0 80px;
 }
-.block {
-  width: 270px;
-  height: 330px;
-  display: inline-block;
-  position: relative;
+.block{
+  margin: 16px 0;
+  padding: 0 10px;
+  width: 25%;
 }
-.phone {
+.circle{
   width: 70px;
   height: 70px;
   display: flex;
-  position: relative;
   margin: 0;
-  border: 20px solid #e84393;
   border-radius: 50%;
-}
-.pie {
-  width: 70px;
-  height: 70px;
-  display: flex;
-  position: relative;
-  margin: 0;
-  border: 20px solid #0984e3;
-  border-radius: 50%;
-}
-.lightning {
-  width: 70px;
-  height: 70px;
-  display: flex;
-  position: relative;
-  margin: 0;
-  border: 21px solid #6c5ce7;
-  border-radius: 50%;
+  justify-content: center;
   align-items: center;
 }
-.trumbs-up {
-  width: 70px;
-  height: 70px;
-  display: flex;
-  position: relative;
-  margin: 0;
-  border: 19px solid #00b894;
-  border-radius: 50%;
+.phone{
+  background: #E84393; 
 }
-.opportunities {
-  width: 270px;
-  height: 36px;
+.pie{
+  background: #0984E3;
+
+
+.lightning{
+  background: #6C5CE7;    
+}
+.trumbs-up{
+  background: #00B894;
+}
+.opportunities{
   display: block;
-  position: relative;
   margin: 24px 0 0;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 36px;
 }
-.service {
-  width: 270px;
-  height: 128px;
+.service{
   display: block;
-  position: relative;
   margin: 16px 0 0;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 32px;
+  line-height: 32px;  
 }
-.button {
-  width: 146px;
-  height: 48px;
+.button{
   margin: 8px auto 0 0;
-  display: flex;
-  position: relative;
-  border: 1px solid #adadad;
+  display: inline-block;
+  border: 1px solid #ADADAD;
   border-radius: 16px;
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
-  color: #6c5ce7;
+  color: #6C5CE7;
   font-weight: bold;
   font-size: 18px;
-  line-height: 32px;
-  align-items: center;
-  justify-content: center;
+  line-height: 32px; 
+  padding: 8px 20px;
 }
 
 /* Elizaveta code */
