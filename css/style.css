@@ -371,30 +371,125 @@ body {
     align-items: center;
   }
 
-.designs{
+.summary{
     width: 1440px;
     height: 666px;
-    border: 1px solid red;
     margin: 0 auto;
 }
-.desings h1{
-   width: 1170px;
-   height: 49px;
-   border: 1px solid blue;
-   margin: 80px 135px 0 135px;
+.story{
+    width: 1170px;
+    height: 49px;
+    margin: 80px 135px 0 135px;
+    display: block;
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
 }
-.work{
+.skills{
     width: 1170px;
     height: 72px;
-    border: 1px solid blue;
     margin: 15px 135px 0 135px;
+    display: block;
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+}
+.result{
+    width: 1170px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin: 40px 135px 80px 135px;
 }
 .block{
     width: 270px;
     height: 330px;
-    border: 1px solid blue;
     display: inline-block;
+    position: relative;
+}
+.phone{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    position: relative;
+    margin: 0;
+    border: 20px solid #E84393;
+    border-radius: 50%;
+}
+.pie{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    position: relative;
+    margin: 0;
+    border: 20px solid #0984E3;
+    border-radius: 50%;
+}
+.lightning{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    position: relative;
+    margin: 0;
+    border: 21px solid #6C5CE7;    
+    border-radius: 50%;  
+    align-items: center;
+}
+.trumbs-up{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    position: relative;
+    margin: 0;
+    border: 19px solid #00B894;
+    border-radius: 50%;  
+}
+.opportunities{
+    width: 270px;
+    height: 36px;
+    display: block;
+    position: relative;
+    margin: 24px 0 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+.service{
+    width: 270px;
+    height: 128px;
+    display: block;
+    position: relative;
+    margin: 16px 0 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;  
+}
+.button{
+    width: 146px;
+    height: 48px;
+    margin: 8px auto 0 0;
+    display: flex;
+    position: relative;
+    border: 1px solid #ADADAD;
+    border-radius: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #6C5CE7;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px; 
+    align-items: center;
+    justify-content: center;
     position:relative;
-    
 
 }
