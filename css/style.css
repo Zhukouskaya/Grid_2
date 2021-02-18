@@ -82,16 +82,11 @@ body {
 }
 
 .summary{
-    width: 1440px;
-    height: 666px;
     margin: 0 auto;
 }
 .story{
-    width: 1170px;
-    height: 49px;
-    margin: 80px 135px 0 135px;
+    margin: 80px 0 0;
     display: block;
-    position: relative;
     font-family: 'Inter';
     font-style: normal;
     font-weight: bold;
@@ -99,11 +94,8 @@ body {
     line-height: 48px;
 }
 .skills{
-    width: 1170px;
-    height: 72px;
-    margin: 15px 135px 0 135px;
+    margin: 15px 0 0;
     display: block;
-    position: relative;
     font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
@@ -111,60 +103,38 @@ body {
     line-height: 36px;
 }
 .result{
-    width: 1170px;
     display: flex;
-    position: relative;
     justify-content: space-between;
-    margin: 40px 135px 80px 135px;
+    margin: 40px 0 80px;
 }
 .block{
-    width: 270px;
-    height: 330px;
-    display: inline-block;
-    position: relative;
+    margin: 16px 0;
+    padding: 0 10px;
+    width: 25%;
 }
-.phone{
+.circle{
     width: 70px;
     height: 70px;
     display: flex;
-    position: relative;
     margin: 0;
-    border: 20px solid #E84393;
     border-radius: 50%;
-}
-.pie{
-    width: 70px;
-    height: 70px;
-    display: flex;
-    position: relative;
-    margin: 0;
-    border: 20px solid #0984E3;
-    border-radius: 50%;
-}
-.lightning{
-    width: 70px;
-    height: 70px;
-    display: flex;
-    position: relative;
-    margin: 0;
-    border: 21px solid #6C5CE7;    
-    border-radius: 50%;  
+    justify-content: center;
     align-items: center;
 }
+.phone{
+    background: #E84393; 
+}
+.pie{
+    background: #0984E3;
+}
+.lightning{
+    background: #6C5CE7;    
+}
 .trumbs-up{
-    width: 70px;
-    height: 70px;
-    display: flex;
-    position: relative;
-    margin: 0;
-    border: 19px solid #00B894;
-    border-radius: 50%;  
+    background: #00B894;
 }
 .opportunities{
-    width: 270px;
-    height: 36px;
     display: block;
-    position: relative;
     margin: 24px 0 0;
     font-family: 'Inter';
     font-style: normal;
@@ -173,10 +143,7 @@ body {
     line-height: 36px;
 }
 .service{
-    width: 270px;
-    height: 128px;
     display: block;
-    position: relative;
     margin: 16px 0 0;
     font-family: 'Inter';
     font-style: normal;
@@ -185,11 +152,8 @@ body {
     line-height: 32px;  
 }
 .button{
-    width: 146px;
-    height: 48px;
     margin: 8px auto 0 0;
-    display: flex;
-    position: relative;
+    display: inline-block;
     border: 1px solid #ADADAD;
     border-radius: 16px;
     font-family: 'Inter';
@@ -198,6 +162,5 @@ body {
     font-weight: bold;
     font-size: 18px;
     line-height: 32px; 
-    align-items: center;
-    justify-content: center;
+    padding: 8px 20px;
 }
