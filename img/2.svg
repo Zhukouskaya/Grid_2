@@ -1,3 +1,33 @@
-<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="70" height="70" rx="35" fill="#0984E3"/>
+<svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="31" height="31" fill="#E5E5E5"/>
+<g id="Desktop">
+<g id="# Blocks &#240;&#159;&#147;&#186; / 1">
+<rect width="1440" height="666" transform="translate(-454 -276)" fill="white"/>
+<g id="Feature Iconic Left">
+<g id="&#226;&#172;&#155; Background / 99 dp">
+<rect id="BG" x="-19" y="-20" width="70" height="70" rx="35" fill="#0984E3"/>
+</g>
+<g id="icon-pie-chart" filter="url(#filter0_dd)">
+<path id="Vector" d="M28.8946 20.446C28.0039 22.5523 26.6109 24.4083 24.8372 25.8518C23.0635 27.2953 20.9632 28.2824 18.72 28.7267C16.4767 29.171 14.1588 29.059 11.9688 28.4005C9.77878 27.742 7.78344 26.5571 6.15719 24.9493C4.53094 23.3415 3.3233 21.3599 2.63985 19.1775C1.9564 16.9952 1.81795 14.6787 2.2366 12.4305C2.65525 10.1823 3.61826 8.07088 5.04143 6.28084C6.4646 4.49081 8.3046 3.07665 10.4006 2.162" stroke="#FFEAA7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M30.0006 15C30.0006 13.1615 29.6385 11.341 28.9349 9.64243C28.2313 7.94387 27.2001 6.40053 25.9001 5.1005C24.6001 3.80048 23.0567 2.76925 21.3581 2.06569C19.6596 1.36212 17.8391 1 16.0006 1V15H30.0006Z" stroke="#FFEAA7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_dd" x="-28" y="-25" width="88" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="8"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.08 0"/>
+<feBlend mode="multiply" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="3"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.14902 0 0 0 0 0.196078 0 0 0 0 0.219608 0 0 0 0.16 0"/>
+<feBlend mode="multiply" in2="effect1_dropShadow" result="effect2_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow" result="shape"/>
+</filter>
+</defs>
 </svg>
