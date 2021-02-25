@@ -261,6 +261,9 @@ body {
 }
 
 /* Natalia code */
+.summary {
+  padding: 0 15px;
+}
 
 .story{
   margin: 80px 0 0;
