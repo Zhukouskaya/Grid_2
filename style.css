@@ -623,6 +623,7 @@ textarea:focus {
 }
 
 /* Adaptive */
+/* Vlad */
 
 @media (min-width: 360px) and (max-width: 576px) {
   .container {
