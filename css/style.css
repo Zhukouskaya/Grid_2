@@ -620,29 +620,6 @@ textarea:focus {
 
 /* Vlad */
 
-/* @media (max-width: 1200px) {
-  .container {
-    max-width: 992px;
-    margin-right: auto;
-    margin-left: auto;
-}
-  .grid-container {
-    grid-template-columns: 220px 220px 120px 120px 120px;
-    grid-template-rows: 28px 242px 107px 155px
-  }
-}
-
-@media (max-width: 360px) {
-.grid-container {
-  grid-template-columns: 130px 130px 84px 84px 84px;
-  grid-template-rows: 87px 263px 171px 155px;
-}
-} */
-/* @media (max-width: 768px) {
-  .container {
-    width: 570px;
-  }
-
 @media (min-width: 360px) and (max-width: 576px) {
   .container {
     width: 100%;
@@ -705,11 +682,9 @@ textarea:focus {
   }
   .text1_grid {
     visibility: hidden;
-    /* display: none; */
   }
   .text2_grid {
     visibility: hidden;
-    /* display: none; */
   }
   .image1_grid,
   .image6_grid {
@@ -720,8 +695,8 @@ textarea:focus {
     text-shadow: none;
     padding: 8px;
   }
-  .image1_grid{
-    align-items: flex-end; 
+  .image1_grid {
+    align-items: flex-end;
   }
   .text_inside,
   .text_inside.small {
@@ -758,7 +733,8 @@ textarea:focus {
     max-width: 720px;
   }
   .grid-container {
-    grid-template-rows: 67px 168px 71px 112px;
+    grid-template-rows: 67px 140px 71px 112px;
+    gap: 15px 15px;
     width: 100%;
     margin-left: 0;
   }
@@ -791,8 +767,14 @@ textarea:focus {
     line-height: 15px;
   }
   .button_grid a {
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 17px;
+    line-height: 26px;
+  }
+}
+@media (min-width: 974px) and (max-width: 1096px) {
+  .text1_grid,
+  .text2_grid {
+    font-size: 14px;
   }
 }
 
