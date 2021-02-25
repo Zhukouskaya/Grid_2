@@ -377,7 +377,7 @@ body {
 }
 
 .price-bk {
-  border-radius: 8px;
+  border-radius: 16px;
   padding: 32px;
 }
 
@@ -777,22 +777,43 @@ textarea:focus {
 /* Elizaveta */
 
 @media (min-width: 360px) and (max-width: 669px) {
+  .price {
+    padding: 0 15px 80px;
+  }
   .price-title {
-    font-size: 50px;
+    font-size: 32px;
+    line-height: 32px;
   }
 
   .price-subtitle {
-    font-size: 20px;
+    font-size: 24px;
+    line-height: 32px;
   }
 
   .price-tariff {
     grid-template-columns: 1fr;
-    margin: 0 50px;
+  }
+
+  .price-bk {
+    padding: 24px;
+    box-shadow: 0px 2px 4px 0px rgba(37, 41, 58, 0.2);
+  }
+
+  .price-bk:hover {
+    background: #6c5ce7;
   }
 
   .footer {
     flex-direction: column;
     margin: 1100px 100px 0 100px;
+  }
+
+  .footer-form {
+    display: none;
+  }
+  .footer-email a {
+    font-size: 18px;
+    line-height: 32px;
   }
 
   .wave {
@@ -827,22 +848,35 @@ textarea:focus {
 /* Natalia */
 @media (min-width: 833px) and (max-width: 931px) {
   .block {
-      padding: 0 64px 0 0;
+    padding: 0 64px 0 0;
   }
-  }
+}
 @media (min-width: 782px) and (max-width: 879px) {
   .block {
-      padding: 0 38px 0 0;
+    padding: 0 38px 0 0;
   }
-  }
+}
 @media (min-width: 496px) and (max-width: 988px) {
   .result {
     grid-template-columns: 1fr 1fr;
   }
 }
 @media (max-width: 495px) {
+  .block {
+    margin: 40px 15px 0 15px;
+  }
   .result {
-    grid-template-columns: 1fr;
-    width: 50%;
+    grid-template-columns: 1fr 1fr;
+  }
+  .story {
+    margin: 65px 15px 0;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .skills {
+    margin: 15px 15px 0;
+    font-size: 18px;
+    line-height: 32px;
   }
 }
+
