@@ -345,10 +345,6 @@ body {
 
 /* Elizaveta code */
 
-.price {
-  padding: 0 0 80px;
-}
-
 .price-title,
 .price-subtitle {
   display: flex;
@@ -374,13 +370,13 @@ body {
 
 .price-tariff {
   grid-template-columns: 1fr 1fr 1fr;
-  display: inline-grid;
+  grid-template-rows: auto;
+  display: grid;
   grid-gap: 30px;
-  height: 536px;
 }
 
 .price-bk {
-  border-radius: 16px;
+  border-radius: 8px;
   padding: 32px;
 }
 
@@ -470,50 +466,39 @@ body {
 .price-btn {
   border: 1px solid #adadad;
   border-radius: 16px;
-  display: flex;
-  align-self: flex-end;
-  padding: 15px;
+  padding: 20px 45px;
   margin: 25px 0 0;
+  color: #6c5ce7;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
 }
 
 .price-btn:hover {
   background: #6c5ce7;
-}
-
-.price-btn-content {
-  color: #6c5ce7;
-  font-weight: 700;
-  display: flex;
-  width: 100%;
-  font-size: 24px;
-  line-height: 36px;
-}
-
-.price-btn-content:hover {
   color: #ffffff;
-}
-
-.price-btn a {
-  text-decoration: none;
-  margin: 0 auto;
 }
 
 .footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 50px 0 0;
 }
 
 .footer-left {
   flex: left;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
 }
 
 .footer-up {
   height: 100px;
 }
 
-.footer-title {
+.footer-title, .footer-title-none, .footer-title-none-02 {
   font-weight: 800;
   font-size: 12px;
   letter-spacing: 2.5px;
@@ -527,6 +512,15 @@ body {
 
 .footer-icon img {
   margin: 0 25px 0 0;
+}
+
+.footer-icon img:hover {
+  border-radius: 50%;
+  background: #FFEAA7;
+}
+
+.footer-icon a {
+  text-decoration: none;
 }
 
 .footer-inform-cont {
@@ -549,6 +543,10 @@ body {
   margin: 10px 0;
 }
 
+.footer-information a:hover {
+  text-decoration: underline;
+}  
+
 .footer-right {
   flex: right;
   display: flex;
@@ -564,34 +562,55 @@ body {
 }
 
 .footer-form {
-  display: flex;
+  display: flex; 
 }
 
 .footer-form-string-up {
-  display: flex;
+  display: flex; 
 }
 
 .footer-form-string-down {
-  display: flex;
+  display: flex; 
 }
 
 input,
 textarea {
   border: none;
-  background: #f0f0f0;
   border-radius: 16px;
-  width: 270px;
-  color: #2d3436;
   margin: 0 15px 15px 0;
+  font-size: 18px;
+  font-family: Inter;
+  padding: 10px;
+}
+
+textarea {
+  color: #6c5ce7;
+  font-weight: 700;
 }
 
 input {
   height: 48px;
+  color: #2d3436;
 }
 
 input:focus,
 textarea:focus {
   border: 5px solid #6c5ce7;
+}
+
+.form-icon1 {
+  background: url(../img/icon-user.svg) no-repeat center right;
+  background-color:#F0F0F0;
+}
+
+.form-icon2 {
+  background: url(../img/icon-mail.svg) no-repeat center right;  
+  background-color:#F0F0F0;
+}
+
+.form-icon3 {
+  background: url(../img/icon-edit.svg) no-repeat center right;
+  background-color:#F0F0F0;
 }
 
 .footer-form-button {
@@ -600,6 +619,8 @@ textarea:focus {
   font-weight: bold;
   font-size: 24px;
   letter-spacing: 0.25px;
+  padding: 35px;
+  line-height: 0px;
 }
 
 .footer-form-button:hover {
@@ -607,10 +628,6 @@ textarea:focus {
   color: #6c5ce7;
 }
 
-.footer-form-button:focus {
-  background-color: #ffeaa7;
-  color: #6c5ce7;
-}
 .wave {
   width: 100%;
 }
@@ -779,10 +796,49 @@ textarea:focus {
 
 /* Elizaveta */
 
-@media (min-width: 360px) and (max-width: 669px) {
-  .price {
-    padding: 0 15px 80px;
+@media (min-width: 320px) and (max-width: 470px) {
+
+  .price-bk-info, .wave {
+    display: none;
   }
+
+  .price-tariff {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-email a {
+    font-size: 25px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 579px) {
+
+  .price-btn {
+    font-size: 15px;
+    padding: 10px 25px;
+  }
+
+  .price-bk-price {
+    font-size: 30px;
+  }
+
+  .price-bk-content {
+    font-size: 15px;
+  }
+
+  .footer-up {
+    height: 55px;
+  }
+
+  .footer-email a {
+    font-size: 25px;
+    margin: 0 auto;
+  }
+}
+
+@media  (max-width: 749px) {
+
   .price-title {
     font-size: 32px;
     line-height: 32px;
@@ -793,9 +849,9 @@ textarea:focus {
     line-height: 32px;
   }
 
-  .price-tariff {
-    grid-template-columns: 1fr;
-  }
+  .footer-form,  .footer-title, .footer-inform-cont {
+    display: none;
+  } 
 
   .price-bk {
     padding: 24px;
@@ -806,48 +862,58 @@ textarea:focus {
     background: #6c5ce7;
   }
 
-  .footer {
-    flex-direction: column;
-    margin: 1100px 100px 0 100px;
-  }
-
-  .footer-form {
-    display: none;
-  }
-  .footer-email a {
-    font-size: 18px;
-    line-height: 32px;
-  }
-
-  .wave {
-    width: 100%;
-  }
-}
-
-@media (min-width: 670px) and (max-width: 790px) {
-  .footer {
-    flex-direction: column;
-    margin: 1100px 100px 0 100px;
-  }
-
   .price-tariff {
     grid-template-columns: 1fr;
-    margin: 0 50px;
-  }
-}
-
-@media (min-width: 791px) and (max-width: 1100px) {
-  .price-tariff {
-    grid-template-columns: 1fr 1fr;
-    display: inline-grid;
-    margin: 0 50px;
+    justify-content: center;
+    align-items: center;
   }
 
   .footer {
     flex-direction: column;
-    margin: 500px 150px 0 150px;
-  }
+  } 
+
+  .footer-left, .footer-right {
+    margin: 0 auto;
+  } 
 }
+
+.footer-right {
+  margin-top: 30px;
+}
+
+@media (min-width: 750px) and (max-width: 1015px) {
+
+  .footer {
+    flex-direction: column;
+  } 
+
+  .footer-left, .footer-right {
+    margin-left: 100px;
+    padding: 20px;
+  }
+
+  .price-tariff {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media (min-width: 1015px) and (max-width: 1134px) {
+  .price-tariff {
+    grid-template-columns: 1fr 1fr;
+    margin: 0 50px;
+  } 
+
+ .footer {
+    margin: 30px;
+} 
+
+ @media (min-width: 1135px) and (max-width: 1200px) {
+.footer {
+  padding: 0 50px;
+ } 
+} 
+
 /* Natalia */
 @media (min-width: 833px) and (max-width: 931px) {
   .block {
